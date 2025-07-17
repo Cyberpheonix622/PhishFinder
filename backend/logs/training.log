@@ -1,0 +1,16 @@
+2025-05-16 00:13:23,168 - INFO -        accuracy: 0.9715
+2025-05-16 00:13:23,168 - INFO -       precision: 0.9702
+2025-05-16 00:13:23,169 - INFO -          recall: 0.9789
+2025-05-16 00:13:23,170 - INFO -        f1_score: 0.9745
+2025-05-16 00:13:23,171 - INFO - confusion_matrix: [[942, 37], [26, 1206]]
+2025-05-16 00:15:33,838 - INFO - Loading dataset...
+2025-05-16 00:15:33,955 - INFO - Training model...
+2025-05-16 00:15:35,776 - INFO - Model Evaluation:
+2025-05-16 00:15:35,776 - INFO -        accuracy: 0.9715
+2025-05-16 00:15:35,777 - INFO -       precision: 0.9702
+2025-05-16 00:15:35,777 - INFO -          recall: 0.9789
+2025-05-16 00:15:35,778 - INFO -        f1_score: 0.9745
+2025-05-16 00:15:35,778 - INFO - confusion_matrix: [[942, 37], [26, 1206]]
+2025-05-16 00:15:35,916 - INFO - Model saved to: model/phishing_pipeline.joblib
+2025-05-16 00:15:35,917 - INFO - Selected features saved to: model/feature_names.txt
+2025-05-16 00:15:35,918 - INFO - Metrics saved to: model/metrics.json

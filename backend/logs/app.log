@@ -1,0 +1,56 @@
+2025-05-16 00:16:44,455 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.53:5000
+2025-05-16 00:16:44,457 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-16 00:17:11,444 - INFO - [Trusted] https://www.google.com
+2025-05-16 00:17:11,448 - INFO - 127.0.0.1 - - [16/May/2025 00:17:11] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 00:17:14,027 - INFO - [Heuristic] https://paypal.com-login.verify-user876342.com flagged for: brand_spoofing
+2025-05-16 00:17:14,030 - INFO - 127.0.0.1 - - [16/May/2025 00:17:14] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 00:17:16,606 - INFO - [Heuristic] http://192.168.1.1/secure/banking flagged for: internal_ip
+2025-05-16 00:17:16,611 - INFO - 127.0.0.1 - - [16/May/2025 00:17:16] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 00:17:19,199 - INFO - [Heuristic] https://amazon.com-giftcard.ru flagged for: brand_spoofing
+2025-05-16 00:17:19,201 - INFO - 127.0.0.1 - - [16/May/2025 00:17:19] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 00:17:21,790 - INFO - [Trusted] https://www.microsoft.com
+2025-05-16 00:17:21,793 - INFO - 127.0.0.1 - - [16/May/2025 00:17:21] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 00:17:24,361 - INFO - [Heuristic] http://login.ebay-accountupdate.com flagged for: brand_spoofing
+2025-05-16 00:17:24,364 - INFO - 127.0.0.1 - - [16/May/2025 00:17:24] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 00:17:26,955 - INFO - [Heuristic] https://legit-bank.com flagged for: dns_failure
+2025-05-16 00:17:26,957 - INFO - 127.0.0.1 - - [16/May/2025 00:17:26] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 00:17:29,528 - INFO - [Heuristic] https://paypal.secure-login.com flagged for: brand_spoofing
+2025-05-16 00:17:29,531 - INFO - 127.0.0.1 - - [16/May/2025 00:17:29] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 09:51:45,109 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.77.233:5000
+2025-05-16 09:51:45,111 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-16 09:53:40,412 - INFO - 127.0.0.1 - - [16/May/2025 09:53:40] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-16 09:53:40,677 - INFO - [Trusted] https://www.google.com
+2025-05-16 09:53:40,683 - INFO - 127.0.0.1 - - [16/May/2025 09:53:40] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 09:54:02,058 - INFO - 127.0.0.1 - - [16/May/2025 09:54:02] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-16 09:54:03,654 - INFO - [Model] https://www.g00gl3.com => legitimate (75.55%)
+2025-05-16 09:54:03,655 - INFO - 127.0.0.1 - - [16/May/2025 09:54:03] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 10:05:24,427 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.77.233:5000
+2025-05-16 10:05:24,428 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-16 10:05:48,920 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.77.233:5000
+2025-05-16 10:05:48,921 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-16 10:06:24,799 - INFO - 127.0.0.1 - - [16/May/2025 10:06:24] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-16 10:06:25,054 - INFO - [Trusted] https://www.google.com
+2025-05-16 10:06:25,055 - INFO - 127.0.0.1 - - [16/May/2025 10:06:25] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 10:33:07,153 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.77.233:5000
+2025-05-16 10:33:07,154 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-16 10:33:34,330 - INFO - 127.0.0.1 - - [16/May/2025 10:33:34] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-16 10:33:34,573 - INFO - [Heuristic] https://sbi-bank.org.in/lander flagged for: brand_spoofing
+2025-05-16 10:33:34,578 - INFO - 127.0.0.1 - - [16/May/2025 10:33:34] "POST /api/predict HTTP/1.1" 200 -
+2025-05-16 10:33:47,335 - INFO - 127.0.0.1 - - [16/May/2025 10:33:47] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-16 10:33:47,652 - INFO - [Heuristic] https://sbi-bank.org.in/home flagged for: brand_spoofing
+2025-05-16 10:33:47,656 - INFO - 127.0.0.1 - - [16/May/2025 10:33:47] "POST /api/predict HTTP/1.1" 200 -

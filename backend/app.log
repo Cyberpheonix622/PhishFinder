@@ -1,0 +1,102 @@
+2025-05-12 16:41:49,192 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.53:5000
+2025-05-12 16:41:49,195 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 16:42:41,875 - __main__ - INFO - Trusted domain: https://www.google.com
+2025-05-12 16:42:41,882 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:42:41] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:42:44,441 - __main__ - INFO - Suspicious domain: https://paypal.com-login.verify-user876342.com
+2025-05-12 16:42:44,442 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:42:44] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:42:47,052 - __main__ - INFO - Prediction for http://192.168.1.1/secure/banking: {'prediction': 'legitimate', 'confidence': np.float64(86.25), 'url': 'http://192.168.1.1/secure/banking'}
+2025-05-12 16:42:47,053 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:42:47] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:42:49,608 - __main__ - INFO - Suspicious domain: https://amazon.com-giftcard.ru
+2025-05-12 16:42:49,611 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:42:49] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:42:52,163 - __main__ - INFO - Trusted domain: https://www.microsoft.com
+2025-05-12 16:42:52,166 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:42:52] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:42:54,715 - __main__ - INFO - Suspicious domain: http://login.ebay-accountupdate.com
+2025-05-12 16:42:54,717 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:42:54] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:42:57,336 - __main__ - ERROR - Prediction failed for https://legit-bank.com: [Errno 11001] getaddrinfo failed
+2025-05-12 16:42:57,340 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:42:57] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+2025-05-12 16:42:59,894 - __main__ - INFO - Suspicious domain: https://paypal.secure-login.com
+2025-05-12 16:42:59,896 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:42:59] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:54:19,798 - __main__ - INFO - Trusted domain: https://www.google.com
+2025-05-12 16:54:19,807 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:54:19] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:54:22,395 - __main__ - INFO - Suspicious domain: https://paypal.com-login.verify-user876342.com
+2025-05-12 16:54:22,399 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:54:22] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:54:25,013 - __main__ - INFO - Prediction for http://192.168.1.1/secure/banking: {'prediction': 'legitimate', 'confidence': np.float64(86.25), 'url': 'http://192.168.1.1/secure/banking'}
+2025-05-12 16:54:25,014 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:54:25] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:54:27,575 - __main__ - INFO - Suspicious domain: https://amazon.com-giftcard.ru
+2025-05-12 16:54:27,579 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:54:27] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:54:30,138 - __main__ - INFO - Trusted domain: https://www.microsoft.com
+2025-05-12 16:54:30,141 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:54:30] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:54:32,683 - __main__ - INFO - Suspicious domain: http://login.ebay-accountupdate.com
+2025-05-12 16:54:32,685 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:54:32] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 16:54:35,246 - __main__ - ERROR - Prediction failed for https://legit-bank.com: [Errno 11001] getaddrinfo failed
+2025-05-12 16:54:35,249 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:54:35] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+2025-05-12 16:54:37,794 - __main__ - INFO - Suspicious domain: https://paypal.secure-login.com
+2025-05-12 16:54:37,796 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 16:54:37] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 18:46:04,997 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.53:5000
+2025-05-12 18:46:04,998 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 18:46:17,490 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 18:46:17] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 18:46:20,043 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 18:46:20] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 18:46:22,593 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 18:46:22] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 18:46:25,154 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 18:46:25] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 18:46:27,701 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 18:46:27] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 18:46:30,243 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 18:46:30] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 18:46:32,810 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 18:46:32] "POST /api/predict HTTP/1.1" 200 -
+2025-05-12 18:46:35,356 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 18:46:35] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:11:34,259 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.53:5000
+2025-05-15 14:11:34,263 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 14:12:04,953 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:12:04] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:12:07,506 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:12:07] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:12:10,068 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:12:10] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:12:12,611 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:12:12] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:12:15,155 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:12:15] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:12:17,694 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:12:17] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:12:20,255 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:12:20] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:12:22,811 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:12:22] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:12:37,890 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:12:37] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 14:12:38,139 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:12:38] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:13:26,219 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:13:26] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 14:13:26,535 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:13:26] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:13:39,171 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:13:39] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 14:13:39,478 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:13:39] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:13:50,643 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:13:50] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 14:13:51,335 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:13:51] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:14:08,690 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:14:08] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 14:14:09,022 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:14:09] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:15:58,496 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.53:5000
+2025-05-15 14:15:58,498 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 14:17:32,835 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:17:32] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 14:17:33,093 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:17:33] "[31m[1mPOST /api/predict HTTP/1.1[0m" 400 -
+2025-05-15 14:17:51,194 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:17:51] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 14:17:51,525 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:17:51] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:17:58,262 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:17:58] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 14:17:58,590 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:17:58] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:18:24,163 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:18:24] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 14:18:24,559 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:18:24] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 14:42:18,479 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.53:5000
+2025-05-15 14:42:18,512 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 15:14:24,946 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:14:24] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 15:14:25,233 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:14:25] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 15:14:29,956 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:14:29] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 15:14:30,295 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:14:30] "POST /api/predict HTTP/1.1" 200 -
+2025-05-15 23:54:03,424 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.53:5000
+2025-05-15 23:54:03,427 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 23:54:55,785 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 23:54:55] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-05-15 23:54:56,143 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 23:54:56] "POST /api/predict HTTP/1.1" 200 -
