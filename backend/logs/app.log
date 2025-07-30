@@ -54,3 +54,27 @@
 2025-05-16 10:33:47,335 - INFO - 127.0.0.1 - - [16/May/2025 10:33:47] "OPTIONS /api/predict HTTP/1.1" 200 -
 2025-05-16 10:33:47,652 - INFO - [Heuristic] https://sbi-bank.org.in/home flagged for: brand_spoofing
 2025-05-16 10:33:47,656 - INFO - 127.0.0.1 - - [16/May/2025 10:33:47] "POST /api/predict HTTP/1.1" 200 -
+2025-07-29 23:17:16,858 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-07-29 23:17:16,860 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 23:19:07,271 - INFO - [Trusted] https://www.google.com
+2025-07-29 23:19:07,276 - INFO - 127.0.0.1 - - [29/Jul/2025 23:19:07] "POST /api/predict HTTP/1.1" 200 -
+2025-07-29 23:19:09,846 - INFO - [Heuristic] https://paypal.com-login.verify-user876342.com flagged for: brand_spoofing
+2025-07-29 23:19:09,850 - INFO - 127.0.0.1 - - [29/Jul/2025 23:19:09] "POST /api/predict HTTP/1.1" 200 -
+2025-07-29 23:19:12,447 - INFO - [Heuristic] http://192.168.1.1/secure/banking flagged for: internal_ip
+2025-07-29 23:19:12,451 - INFO - 127.0.0.1 - - [29/Jul/2025 23:19:12] "POST /api/predict HTTP/1.1" 200 -
+2025-07-29 23:19:15,031 - INFO - [Heuristic] https://amazon.com-giftcard.ru flagged for: brand_spoofing
+2025-07-29 23:19:15,035 - INFO - 127.0.0.1 - - [29/Jul/2025 23:19:15] "POST /api/predict HTTP/1.1" 200 -
+2025-07-29 23:19:17,598 - INFO - [Trusted] https://www.microsoft.com
+2025-07-29 23:19:17,599 - INFO - 127.0.0.1 - - [29/Jul/2025 23:19:17] "POST /api/predict HTTP/1.1" 200 -
+2025-07-29 23:19:20,160 - INFO - [Heuristic] http://login.ebay-accountupdate.com flagged for: brand_spoofing
+2025-07-29 23:19:20,162 - INFO - 127.0.0.1 - - [29/Jul/2025 23:19:20] "POST /api/predict HTTP/1.1" 200 -
+2025-07-29 23:19:22,876 - INFO - [Heuristic] https://legit-bank.com flagged for: dns_failure
+2025-07-29 23:19:22,877 - INFO - 127.0.0.1 - - [29/Jul/2025 23:19:22] "POST /api/predict HTTP/1.1" 200 -
+2025-07-29 23:19:25,417 - INFO - [Heuristic] https://paypal.secure-login.com flagged for: brand_spoofing
+2025-07-29 23:19:25,418 - INFO - 127.0.0.1 - - [29/Jul/2025 23:19:25] "POST /api/predict HTTP/1.1" 200 -
+2025-07-29 23:19:39,826 - INFO - 127.0.0.1 - - [29/Jul/2025 23:19:39] "OPTIONS /api/predict HTTP/1.1" 200 -
+2025-07-29 23:19:40,010 - INFO - [Heuristic] https://paypal.secure-login.com flagged for: brand_spoofing
+2025-07-29 23:19:40,015 - INFO - 127.0.0.1 - - [29/Jul/2025 23:19:40] "POST /api/predict HTTP/1.1" 200 -
